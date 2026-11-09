@@ -1,0 +1,333 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Cairo Play", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 20px;
+  color: #123;
+  font-style: normal;
+  font-variation-settings:"slnt" 0;
+}
+section{
+  display: flex;
+  background: url('e.jpeg');
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  
+}
+#box{
+ position: relative;
+  width: 450px;
+  height: 450px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 120px;
+}
+h2{
+  font-size: 2em;
+  color: #fff;
+  align-items: center;
+  position: relative;
+  left: 80px;
+  margin: 25px 0px;
+}
+#inputbox{
+  position: relative;
+  margin: 30px 0;
+  width: 310px;
+  border-bottom: 2px solid #fff;
+}
+#inputboxx{
+  position: relative;
+  margin: 30px 0;
+  width: 310px;
+  border-bottom: 2px solid #fff;
+  display: none;
+}
+#inputboxx1{
+  position: relative;
+  margin: 30px 0;
+  width: 310px;
+  border-bottom: 2px solid #fff;
+  display: none;
+}
+#inputbox label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 1em;
+  transition: .5s;
+}
+#inputboxx label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: #ccc;
+  font-size: 1em;
+  transition: .5s;
+  
+}
+#inputboxx1 label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: #ccc;
+  font-size: 1em;
+  transition: .5s;
+
+}
+input:focus~#s,
+input:valid~#s{
+  top: -5px;
+  color: #25B6C9;
+  font-size: 18px;
+}
+input:focus~#ss,
+input:valid~#ss{
+  top: -5px;
+  color: #25B6C9;
+  font-size: 18px;
+}
+input:focus~#email1,
+input:valid~#email1{
+  top: -5px;
+  color: #25B6C9;
+  font-size: 18px;
+}
+
+input:focus~#repassword1,
+input:valid~#repassword1{
+  top: -5px;
+  color: #25B6C9;
+  font-size: 18px;
+}
+
+
+
+
+#inputbox input{
+  width: 320px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  padding: 0px 35px 0px 5px;
+  font-size: 1em;
+  text-align: center;
+  
+}
+#inputboxx input{
+  width: 320px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  padding: 0px 35px 0px 5px;
+  font-size: 1em;
+  text-align: center;
+  
+}
+
+#inputboxx1 input{
+  width: 320px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  padding: 0px 35px 0px 5px;
+  font-size: 1em;
+  text-align: center;
+  
+}
+#inputboxx12{
+  position: relative;
+  margin: 30px 0;
+  width: 310px;
+  border-bottom: 2px solid #fff;
+}
+#inputboxx12 input{
+  width: 320px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  padding: 0px 35px 0px 5px;
+  font-size: 1em;
+  text-align: center;
+  
+}
+#inputboxx12 label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 1em;
+  transition: .5s;
+
+}
+input:focus~#code,
+input:valid~#code{
+  top: -5px;
+  color: #25B6C9;
+  font-size: 18px;
+}
+.forget {
+  margin: 15px 0 15px;
+  font-size: .9em;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.forget label input {
+  margin-right: 3px;
+
+}
+
+.forget a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600
+  
+}
+.register #do{
+  color: #fff;
+}
+.forget label a:hover {
+  text-decoration: underline;
+}
+
+.forget #fo{
+  color: #fff;
+}
+button {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+}
+#dark{
+  width: 40%;
+  height: 40px;
+  border-radius: 40px;
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+  position: relative;
+  right: 40px;
+  bottom: 560px;
+}
+
+.register {
+  font-size: .9em;
+  color: #fff;
+  text-align: center;
+  margin: 25px 0 10px;
+}
+
+.register p a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.register p a:hover {
+  text-decoration: underline;
+}
+span{
+  color: #148C0C;
+}
+#lan{
+  width: 40%;
+  height: 40px;
+  border-radius: 40px;
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+  position: relative;
+  left: 80px;
+  bottom: 560px;
+}
+
+
+@media(min-width:700px) and (max-width:1240px){
+  #box{
+    transition: 3s;
+ position: relative;
+  width: 400px;
+  height: 470px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 30px;
+  left: 430px;
+  margin: 10px 0px;
+}
+
+#dark{
+  width: 40%;
+  height: 40px;
+  border-radius: 40px;
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+  position: absolute;
+  left: -380px;
+  top: 100px;
+  bottom:300px;
+}
+#lan{
+  width: 40%;
+  height: 40px;
+  border-radius: 40px;
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+  position: absolute;
+  left: -380px;
+  bottom: 450px;
+}
+
+};
+
+
+.show{
+  display: block;
+}
